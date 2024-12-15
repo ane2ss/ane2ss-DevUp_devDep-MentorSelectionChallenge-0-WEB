@@ -1,3 +1,5 @@
+// WARNNG : Use bootstrap or use view-dependent sizes for example "10 vw" instead of using "px"
+
 /* General Reset */
 * {
   margin: 0;
