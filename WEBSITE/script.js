@@ -129,7 +129,7 @@ const books = [
         link: "https://cdn.reader.cx/?source=8996585f86fcf78fc64b7db257da2035b6ec5a51e17cea3f433df24f952abfad&download_location=https%3A%2F%2Fz-lib.gs%2Fdl%2F1439588%2Fafa390",
       },
   ];
-  
+  // WARNING : Add error handling in case the link doesn't exist or doesn't work, for example you can use ajax to check if the link still works
   // Function to create a grid item
   function createGridItem(book) {
     const gridItem = document.createElement("div");
